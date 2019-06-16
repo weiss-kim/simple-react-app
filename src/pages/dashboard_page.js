@@ -7,7 +7,7 @@ import ReviewsTable from '../components/reviews_table'
 class DashboardPage extends Component {
     componentDidMount() {
         let dataUrl = "http://localhost:3000/data/reviews_Musical_Instruments_5.json"
-        reviewStore.loadData(jsonUrl)
+        reviewStore.loadData(dataUrl)
     }
 
     render() {
