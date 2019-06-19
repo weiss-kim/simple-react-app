@@ -46,8 +46,7 @@ class ReviewsTable extends Component {
         if ( !( reviewsData.length > 0 ) ) { return [] }
 
         return reviewsData.map((object)=> {
-            const [ reviewYear, reviewMonth, _ ] = this.getTimeInfo(object.reviewTime)
-            console.log(_)
+            const [ reviewYear, reviewMonth, ] = this.getTimeInfo(object.reviewTime)
             return {
                 asin: object.asin,
                 reviewMonth: reviewMonth,
