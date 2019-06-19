@@ -8,6 +8,9 @@ function DashboardMenu (){
                 <li><Link to='/dashboard/reviews_table'>
                     Reviews Table
                 </Link></li>
+                <li><Link to='/dashboard/reviews_pie_chart'>
+                    Review Count by Score
+                </Link></li>
             </ul>
         </div>
     )
