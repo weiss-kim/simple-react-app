@@ -4,6 +4,7 @@ import reviewStore from '../stores/review_store'
 import DashboardMenu from '../components/dashboard_menu'
 import ReviewsTable from '../components/reviews_table'
 import ReviewsPieChart from "../components/reviews_pie_chart"
+import ReviewsLineChart from "../components/reviews_line_chart"
 
 class DashboardPage extends Component {
     componentDidMount() {
@@ -22,6 +23,8 @@ class DashboardPage extends Component {
                            component={ReviewsTable}/>
                     <Route path="/dashboard/reviews_pie_chart"
                            component={ReviewsPieChart}/>
+                    <Route path="/dashboard/reviews_line_chart"
+                           component={ReviewsLineChart}/>
                 </Switch>
             </div>
         )

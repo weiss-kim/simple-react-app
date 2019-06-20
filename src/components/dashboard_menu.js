@@ -11,6 +11,9 @@ function DashboardMenu (){
                 <li><Link to='/dashboard/reviews_pie_chart'>
                     Review Count by Score
                 </Link></li>
+                <li><Link to='/dashboard/reviews_line_chart'>
+                    Review Count by Month
+                </Link></li>
             </ul>
         </div>
     )
